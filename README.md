@@ -6,16 +6,16 @@ Este projeto tem como objetivo coletar os dados dos artilheiros do futebol para 
 - média de gols por jogo
 
 ## Tecnologias Usadas
-**Python 3.x:** linguagem de programação utilizada para a coleta e análise dos dados
-**Pandas:** biblioteca para manipulação e análise de dados
-**Requests:** biblioteca para fazer requisições HTTP e interagir com a API
-**.env:** arquivo de configuração para armazenar variáveis de ambiente, como a chave da API de forma segura
+- **Python 3.x:** linguagem de programação utilizada para a coleta e análise dos dados
+- **Pandas:** biblioteca para manipulação e análise de dados
+- **Requests:** biblioteca para fazer requisições HTTP e interagir com a API
+- **.env:** arquivo de configuração para armazenar variáveis de ambiente, como a chave da API de forma segura
 
 ## Funcionalidade
 O script do projeto realiza as seguintes ações:
 
-**Coleta de dados:** utiliza a API da Football API para coletar informações sobre os artilheiros da temporada 2022
-**Processamento dos dados:** organiza os dados em um DataFrame com informações dos jogadores, como nome, time, gols, idade, nacionalidade, partidas e minutos jogados
-**Cálculo de tempo por gol:** calcula o tempo médio que cada jogador leva para marcar um gol, com base nos minutos jogados e gols marcados
-**Cálculo da média de gol por jogo**: calcula a média de gols por jogo
-**Exportação:** o DataFrame final pode ser exportado para um arquivo Excel
+- **Coleta de dados:** utiliza a API da Football API para coletar informações sobre os artilheiros da temporada 2022
+- **Processamento dos dados:** organiza os dados em um DataFrame com informações dos jogadores, como nome, time, gols, idade, nacionalidade, partidas e minutos jogados
+- **Cálculo de tempo por gol:** calcula o tempo médio que cada jogador leva para marcar um gol, com base nos minutos jogados e gols marcados
+- **Cálculo da média de gol por jogo**: calcula a média de gols por jogo
+- **Exportação:** o DataFrame final pode ser exportado para um arquivo Excel
