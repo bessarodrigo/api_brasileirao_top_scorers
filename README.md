@@ -28,6 +28,7 @@ Antes de executar o script, certifique-se de ter as bibliotecas necessárias ins
 
 ```bash
 pip install pandas requests openpyxl python-dotenv
+```bash
 
 ### Configuração do arquivo .env
 
