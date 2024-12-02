@@ -28,13 +28,5 @@ Antes de executar o script, certifique-se de ter as bibliotecas necessárias ins
 
 ```bash
 pip install pandas requests openpyxl python-dotenv
-```bash
-
-### Configuração do arquivo .env
-
-Para acessar a API de Futebol, você precisa da chave da API. Crie um arquivo .env na raiz do seu projeto e adicione a chave da API da Football API:
-
-```bash
-API_KEY=YOUR_API_KEY_HERE
 
 
