@@ -19,14 +19,3 @@ O script do projeto realiza as seguintes ações:
 **Cálculo de tempo por gol:** calcula o tempo médio que cada jogador leva para marcar um gol, com base nos minutos jogados e gols marcados
 **Cálculo da média de gol por jogo**: calcula a média de gols por jogo
 **Exportação:** o DataFrame final pode ser exportado para um arquivo Excel
-
-## Como Usar
-
-### Pré-requisitos
-
-Antes de executar o script, certifique-se de ter as bibliotecas necessárias instaladas. Você pode instalá-las usando o `pip`:
-
-```bash
-pip install pandas requests openpyxl python-dotenv
-
-
